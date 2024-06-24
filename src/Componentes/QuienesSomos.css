@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+.quienes-somos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*flex-direction: column;*/
+    /*height: 80vh;*/
+    
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;/*agregado ver*/
+    padding: 100px;/*agregado ver*/
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.quienes-somos.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 200px 12px;
+}
+.imagen-quienessomos{
+    display: flex;
+    background-image: url("../Imagenes/inmobiliaria.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+    
+    
+    float:left;
+}
+
+.quienes-somos h2{ /* sacamos margen superior
+     del h2 para que el título quede centrado en cuanto al alto de la pantallla pq arriba está definido el margen de h2*/
+    margin-top: -10px;
+    color: rgb(201, 179, 221);
+    margin-bottom: 20px;
+    font-size: 50px;
+    
+}
+
+.quienes-somos .texto{ /* .texto no es el texto sino que es el contenedor del texto*/
+    width: 50%;
+    max-width: 600px;/*ancho máximo al párrafo para que no se ensanche demasiado al abrir la pág*/ 
+    text-align: initial;
+    padding-left: 30px; /*para separar el texto de la imagen */
+    display:flex; /*centrando el texto*/
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.parrafo1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.parrafo2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+             
+    
+    
+    
+
+

@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 3em;
+}
+p{
+    font-size: 1.25em;
+    color: black;
+    
+}
+
+
+
+
+.tituloh2{
+    color: black;
+
+}
+
+
+.Cars{
+    border-color: black;
+    color: white;
+    text-align: center;
+    
+
+    
+
+
+}
+.tituloh2{
+    color: black;
+    margin-top: -100px;
+}
+.Cars .conteiner{
+    padding: 150px 12px;
+   
+    
+    
+    
+
+
+}
+
+.Cars .h2{
+    margin-top: 0;
+    /*font-size: 3em;*/
+    
+    
+}
+.Cars p{
+  display: none;
+  padding-top: 400px;
+}
+
+.Cars .carta2{
+    
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    
+    
+
+    
+    
+}
+.Cars .listacarta{
+    
+    padding-top: 400px;
+    padding-left: 50px;
+
+
+    
+    
+}
+
+
+
+.carta2:first-child{
+    display: flex;
+    background-image: url("/public/Imagenes/Cabañas/2.webp");
+   height: 400px;
+   width: 400px;
+
+    
+    
+    
+} 
+.carta2:nth-child(2){
+    display: flex;
+    background-image: url("/public/Imagenes/Cabañas/tilcara.jpg");
+    height: 400px;
+   width: 400px;
+   
+}
+
+ .carta2:nth-child(3){
+    display: flex;
+    background-image: url("/public/Imagenes/Cabañas/6.webp");
+    height: 400px;
+   width: 400px;
+}
+
+
+@media(min-width: 720px) {
+
+    .Cars .cartas{
+        display: flex;
+        justify-content: center;
+    }
+    .Cars p{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .Cars .carta2{
+        padding: 15px;
+    }
+
+    .Cars h3{
+        margin-top: 0;
+    }
+    
+  
+    
+    
+    
+    .carta2:first-child{
+        display: flex;
+        background-image: url("/public/Imagenes/Cabañas/2.webp");
+        
+        
+        
+    } 
+    .carta2:nth-child(2){
+        display: flex;
+        background-image: url("/public/Imagenes/Cabañas/tilcara.jpg");
+        
+       
+    }
+    
+     .carta2:nth-child(3){
+        display: flex;
+        background-image: url("/public/Imagenes/Cabañas/6.webp");    
+    
+}
+}

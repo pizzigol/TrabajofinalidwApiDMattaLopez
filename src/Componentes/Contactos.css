@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   
+}
+
+.contenedor{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 450px;
+        background-color: white  ;
+        background-size: cover;
+        background-position: center ;
+        min-height: 50vh;
+        
+    
+
+
+}
+.textcontactos{
+     color: rgb(163, 138, 184);
+     font-size: 50px;
+     margin-bottom: 10px;
+     text-shadow: none;
+}
+
+
+.listacontactos{
+    
+        list-style: none;
+        font-size: black;
+        font-weight: bold;
+        color:black;
+        margin-bottom: 50px;
+        font-size: 20px;
+    
+    }
+
+.botonparadireccion{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    color: black ;
+    background-color: rgb(163, 217, 177);
+    margin-bottom: 10px;
+    
+    
+}
+.botonparadireccion:hover{
+    background-color: rgb(220, 204, 235);
+    
+    
+}
+
+.mapa-imagen{
+    margin-top: 20px;
+}
+
+

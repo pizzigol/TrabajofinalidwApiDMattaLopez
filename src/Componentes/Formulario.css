@@ -1,0 +1,107 @@
+*{
+   
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.contact-form-container{
+   
+   
+  
+  
+padding-left: 0 ;
+padding-right: 0 ;
+width: 100% ;
+display: flex;
+
+
+margin: left;
+height: 60vh;
+
+justify-content: flex-start;
+align-items: flex-start;
+
+
+
+}
+
+
+/* Estilos para el formulario */
+.contact-form {
+   
+    flex-direction: center;
+    gap: 10px;
+    max-width: 400px;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+
+
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background: #222;
+    color: #fff;
+}
+
+/* Estilos para el botón de envío */
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #28a745; /* Verde */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #218838; /* Verde oscuro */
+}
+
+/* Estilos para la visualización de datos */
+.form-data-display {
+    background: #444;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 20px;
+    height: 360px;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 30px;
+    
+    
+}
+
+.form-data-display h2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-data-display p {
+    margin: 25px 0;
+    color: #fff;
+}
+
+
+

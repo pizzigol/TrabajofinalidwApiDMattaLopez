@@ -1,0 +1,54 @@
+*{
+  
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    
+ }
+ 
+ .contenedor-alojamientos{
+    
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    text-align: center;
+   
+    
+   
+   
+    
+    /*background-color: rgb(255, 255, 255);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;/*agregado ver*/
+    padding: 100px;/*agregado ver*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+ 
+    
+    
+ }
+ .textoalojamientos{
+    color: rgb(152, 87, 213);
+    font-size: 45px;
+    text-align: initial;
+    margin-top: -50px;
+    display: flex;
+ }
+
+ .textoalojamientos3{
+   color: black;
+   font-size: 45px;
+   text-align: initial;
+   margin-top: -250px;
+   display: flex;
+   margin-bottom: 25px;
+}
+ 
+ 

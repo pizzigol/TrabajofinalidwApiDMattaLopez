@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.hero{
+    
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: url(/public/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.herotexto{
+    font-size: 4.5em;
+    color: rgb(117, 59, 169);
+    text-shadow: 0.01em 0.01em black;
+    margin-top: -3%;
+
+    
+}
+
+.herotexto1{
+    font-size: 4.5em;
+    color: rgb(117, 59, 169);
+    text-shadow: 0.01em 0.01em black;
+    margin-top: 20px;
+    
+
+    
+    
+}
+.hh-nav-link-hero{
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    color: black ;
+    background-color:  rgb(128, 215, 151);
+    list-style: none;
+    margin-top: 20px;
+    
+    
+
+    
+    
+}
+.hh-nav-link-hero:hover{
+    background-color: rgb(220, 204, 235);
+} 
+
+

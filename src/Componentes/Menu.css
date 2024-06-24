@@ -1,0 +1,148 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.hh-header{
+   
+    margin: auto;
+    min-height: 70px ;/*ultimo ver esto como queda*/
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(163,217,177);
+    align-items: center;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-bottom: 1px solid #081c2e;
+    background-color: rgb(163,217,177);
+    
+    
+}
+.hh-header-div{
+    display: flex;
+    align-items: center;
+    
+
+}
+.hh-nav{
+    padding: 20px;
+    
+    
+
+
+}
+.hh-imagen-logo{
+    display: flex;
+    width: 150px;
+    height: 100px;
+    margin: 0;
+    padding: 5px 30px;
+    font-size: 1.35em;
+    border-radius: 50%;
+   
+    
+}
+.hh-title{
+    margin: 0;
+    font-size: 1.8em;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.hh-nav{
+    margin-left: auto;
+   
+
+}
+
+.hh-nav-link{
+   text-decoration: none;
+  
+    /*background-color: rgb(128, 215, 151);*/
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin:5px  ;
+    list-style: none;
+    flex-direction: row;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    border: none;
+
+}
+
+    /*text-decoration: none;
+  
+    background-color: rgb(128, 215, 151);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin:5px  ;
+    list-style: none;
+    flex-direction: row;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+   
+
+
+
+
+
+
+
+.hh-nav-link:hover{
+    background-color: rgb(220, 204, 235);
+}    
+
+
+.hh-ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    
+    
+    
+}
+.hh-ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    
+   
+}
+
+    
+
+@media (max-width: 720px){
+    .hh-ul{
+    flex-direction: column;
+    align-items: center;
+}
+  
+}
+    
+
+
+
+
+
+
+
+
+
+
+
